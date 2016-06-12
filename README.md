@@ -19,6 +19,7 @@ Folgende Programme müssen installiert sein und eventuell in der Path Variable s
 
 
 Ansonsten bleibt nur noch eins zu sagen:
+
 ![Have fun](https://media3.giphy.com/media/6w4yjSjHd66Na/200.gif "Have fun!")
 
 
