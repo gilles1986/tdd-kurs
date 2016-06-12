@@ -10,6 +10,9 @@ Folgende Programme müssen installiert sein und eventuell in der Path Variable s
 - Grunt (*npm install grunt -g*   und  *npm install grunt-cli -g*)
 - Phantom JS (*npm install -g phantomjs*)
 
+## Installation
+Im Root Folder einmal *npm update* durchführen. Fertig! 
+
 ## Wichtigste Grunt Tasks
 
 - html-server : Lässt auf Port 9000 einen Webserver laufen, welcher als Root den web-Ordner des Projektes hat
