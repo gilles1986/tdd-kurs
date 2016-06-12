@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Contentbox</title>
+    <link rel="stylesheet" href="includes/css/style.css"/>
 </head>
 <body>
 
-<div class="contentBox">
+<div class="contentBox" id="content1">
     <ul class="tabs">
         <li>Thema 1</li>
         <li>Thema 2</li>
@@ -16,10 +17,29 @@
         <div class="content">
             Thema 1 Content
         </div>
-        <div class="content ninja">
+        <div class="content">
             Thema 2 Content
         </div>
-        <div class="content ninja">
+        <div class="content">
+            Thema 3 Content
+        </div>
+    </div>
+</div>
+
+<div class="contentBox" id="content2">
+    <ul class="tabs">
+        <li>Thema 1</li>
+        <li>Thema 2</li>
+        <li>Thema 3</li>
+    </ul>
+    <div class="contentWrapper">
+        <div class="content">
+            Thema 1 Content
+        </div>
+        <div class="content">
+            Thema 2 Content
+        </div>
+        <div class="content">
             Thema 3 Content
         </div>
     </div>
@@ -27,5 +47,7 @@
 
 
 <script src="includes/js/lib/jquery.min.js"></script>
+<script src="includes/js/Tabs.js"></script>
+<script src="includes/js/config.js"></script>
 </body>
 </html>
