@@ -20,7 +20,7 @@ module.exports = function(config) {
 
       {pattern: 'js/src/**/*.js', watched: true},
       {pattern: 'js/test/unit/**/*.js', watched: true},
-      {pattern: 'assets/javascript/test/fixtures/*.html', watched: true} // fixtures loading
+      {pattern: 'js/test/fixtures/*.html', watched: true} // fixtures loading
     ],
 
 
