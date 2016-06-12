@@ -72,8 +72,8 @@ module.exports = function(grunt) {
           },
           {
             expand: true,
-            src: ['js/libs/**.js'],
-            dest: 'web/includes/js/libs',
+            src: ['js/lib/**/*.js'],
+            dest: 'web/includes/js/lib',
             filter: 'isFile',
             flatten: true
           }
@@ -128,12 +128,12 @@ module.exports = function(grunt) {
 
   // Eigene Tasks
 
-  grunt.registerTask('default', ["html", "js", "styles", "notify_hooks"]);
+  grunt.registerTask('default', [ "js"]);
 
   grunt.registerTask('project-clean', 'clean:project');
 
 
-  grunt.registerTask('js', ["runTests", "clean", "copy:jstoweb"]);
+  grunt.registerTask('js', ["runTests", "clean", "copy"]);
 
   grunt.registerTask('runTests', ['karma:unit']);
   grunt.registerTask("html-server", "connect:server");
